@@ -586,10 +586,6 @@ def draw_text(
     x = np.interp([x], [0, 1], [xmin, xmax])[0]
     y = np.interp([y], [0, 1], [ymin, ymax])[0]
 
-    plt.text(
-        x, y, text,
-        **params
-    )
 
 
 def presets_directory():
