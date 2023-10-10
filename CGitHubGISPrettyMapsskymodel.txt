@@ -1,0 +1,7 @@
+C:\GitHub\GIS\PrettyMaps\skymodel
+
+santacruz_type4_elelv60_azi50.csv
+
+python raster_chunk_processing.py -m skymodel -s 800 -o 200 -p 3 -l santacruz.csv --verbose santacruz_1dem_circle_reproj.tif santacruz_1dem_skymodel_circle.tif
+
+osmnx=1.2.2 Shapely>=1.8,<2.0 pyyaml=6.0.0

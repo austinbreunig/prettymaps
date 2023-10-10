@@ -1,3 +1,14 @@
 *.py[cod]
 *.egg-info
-cache
+
+# shapefiles
+*.shp
+*.shx
+*.dbf
+*.shn
+*.prj
+*.sbn
+*.cpg
+*.json
+*.tif
+#
